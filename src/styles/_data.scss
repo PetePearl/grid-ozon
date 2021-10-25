@@ -1,0 +1,24 @@
+$color1: #CDC8FE;
+$color2: #C3FEC6;
+$color3: #C8EDFF;
+$color4: #FEFCC5;
+$color5: #FDC8FE;
+
+.data {
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+
+  &--1 {background: $color1;}
+  &--3 {background: $color2;}
+  &--5 {background: $color3;}
+  &--7 {background: $color2;}
+  &--9 {background: $color4;}
+  &--11 {background: $color5;}
+
+  &--1 {border-radius: 5px 5px 0 5px;}
+  &--3 {border-radius: 5px 5px 5px 0;}
+  &--7 {border-radius: 5px 0 0 5px;}
+  &--9 {border-radius: 0 5px 5px 0;}
+  &--11 {border-radius: 0 0 5px 5px;}
+}
